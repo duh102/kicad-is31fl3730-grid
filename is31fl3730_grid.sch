@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J1
 U 1 1 5EC17921
 P 1000 1150
-F 0 "J?" H 918 625 50  0000 C CNN
-F 1 "Conn_01x07" H 918 716 50  0000 C CNN
-F 2 "" H 1000 1150 50  0001 C CNN
+F 0 "J1" H 918 625 50  0000 C CNN
+F 1 "Conn_01x06" H 918 716 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1000 1150 50  0001 C CNN
 F 3 "~" H 1000 1150 50  0001 C CNN
 	1    1000 1150
 	-1   0    0    -1  
@@ -42,10 +42,10 @@ GND
 Text GLabel 1800 2650 0    50   Input ~ 0
 GND
 $Comp
-L Driver_LED:IS31FL3730 U?
+L Driver_LED:IS31FL3730 U1
 U 1 1 5EC165A5
 P 2800 2000
-F 0 "U?" H 2800 3081 50  0000 C CNN
+F 0 "U1" H 2800 3081 50  0000 C CNN
 F 1 "IS31FL3730" H 2800 2990 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mm" H 2800 650 50  0001 C CNN
 F 3 "" H 2800 650 50  0001 C CNN
@@ -53,23 +53,23 @@ F 3 "" H 2800 650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5EC1A45D
 P 2050 2650
-F 0 "C?" V 1798 2650 50  0000 C CNN
+F 0 "C1" V 1798 2650 50  0000 C CNN
 F 1 "0.1uF" V 1889 2650 50  0000 C CNN
-F 2 "" H 2088 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 2500 50  0001 C CNN
 F 3 "~" H 2050 2650 50  0001 C CNN
 	1    2050 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5EC1C3ED
 P 3100 950
-F 0 "C?" V 2848 950 50  0000 C CNN
+F 0 "C2" V 2848 950 50  0000 C CNN
 F 1 "0.1uF" V 2939 950 50  0000 C CNN
-F 2 "" H 3138 800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 800 50  0001 C CNN
 F 3 "~" H 3100 950 50  0001 C CNN
 	1    3100 950 
 	0    1    1    0   
@@ -189,34 +189,34 @@ Wire Wire Line
 	3450 2650 3300 2650
 Wire Wire Line
 	3300 2750 3450 2750
-Text GLabel 1850 4750 0    50   Input ~ 0
+Text GLabel 2000 4600 0    50   Input ~ 0
 R7
-Text GLabel 1850 4650 0    50   Input ~ 0
+Text GLabel 2000 4500 0    50   Input ~ 0
 R6
-Text GLabel 1850 4550 0    50   Input ~ 0
+Text GLabel 2000 4400 0    50   Input ~ 0
 R5
-Text GLabel 1850 4450 0    50   Input ~ 0
+Text GLabel 2000 4300 0    50   Input ~ 0
 R4
-Text GLabel 1850 4350 0    50   Input ~ 0
+Text GLabel 2000 4200 0    50   Input ~ 0
 R3
-Text GLabel 1850 4250 0    50   Input ~ 0
+Text GLabel 2000 4100 0    50   Input ~ 0
 R2
-Text GLabel 1850 4150 0    50   Input ~ 0
+Text GLabel 2000 4000 0    50   Input ~ 0
 R1
 Wire Wire Line
-	2000 4750 1850 4750
+	2150 4600 2000 4600
 Wire Wire Line
-	1850 4650 2000 4650
+	2000 4500 2150 4500
 Wire Wire Line
-	2000 4550 1850 4550
+	2150 4400 2000 4400
 Wire Wire Line
-	1850 4450 2000 4450
+	2000 4300 2150 4300
 Wire Wire Line
-	2000 4350 1850 4350
+	2150 4200 2000 4200
 Wire Wire Line
-	1850 4250 2000 4250
+	2000 4100 2150 4100
 Wire Wire Line
-	2000 4150 1850 4150
+	2150 4000 2000 4000
 Text GLabel 4400 4750 0    50   Input ~ 0
 R7
 Text GLabel 4400 4650 0    50   Input ~ 0
@@ -245,307 +245,123 @@ Wire Wire Line
 	4400 4250 4550 4250
 Wire Wire Line
 	4550 4150 4400 4150
-Text GLabel 6950 4750 0    50   Input ~ 0
-R7
-Text GLabel 6950 4650 0    50   Input ~ 0
-R6
-Text GLabel 6950 4550 0    50   Input ~ 0
-R5
-Text GLabel 6950 4450 0    50   Input ~ 0
-R4
-Text GLabel 6950 4350 0    50   Input ~ 0
-R3
-Text GLabel 6950 4250 0    50   Input ~ 0
-R2
-Text GLabel 6950 4150 0    50   Input ~ 0
-R1
-Wire Wire Line
-	7100 4750 6950 4750
-Wire Wire Line
-	6950 4650 7100 4650
-Wire Wire Line
-	7100 4550 6950 4550
-Wire Wire Line
-	6950 4450 7100 4450
-Wire Wire Line
-	7100 4350 6950 4350
-Wire Wire Line
-	6950 4250 7100 4250
-Wire Wire Line
-	7100 4150 6950 4150
-Text GLabel 1850 3950 0    50   Input ~ 0
+Text GLabel 2000 3800 0    50   Input ~ 0
 C1
 Text GLabel 4400 3950 0    50   Input ~ 0
 C4
-Text GLabel 6950 3950 0    50   Input ~ 0
-C7
 Wire Wire Line
-	1850 3950 2000 3950
+	2000 3800 2150 3800
 Wire Wire Line
 	4550 3950 4400 3950
 Wire Wire Line
-	6950 3950 7100 3950
+	5200 4000 5350 4000
 Wire Wire Line
-	8650 3950 8800 3950
+	3750 3900 3600 3900
 Wire Wire Line
-	7950 3950 7800 3950
-Wire Wire Line
-	6250 3950 6100 3950
-Wire Wire Line
-	5250 3950 5400 3950
-Wire Wire Line
-	3700 3950 3550 3950
-Wire Wire Line
-	2850 3950 2700 3950
-Text GLabel 8650 3950 0    50   Input ~ 0
-C9
-Text GLabel 7800 3950 0    50   Input ~ 0
-C8
-Text GLabel 6100 3950 0    50   Input ~ 0
-C6
-Text GLabel 5250 3950 0    50   Input ~ 0
+	2950 3850 2800 3850
+Text GLabel 5200 4000 0    50   Input ~ 0
 C5
-Text GLabel 3550 3950 0    50   Input ~ 0
+Text GLabel 3600 3900 0    50   Input ~ 0
 C3
-Text GLabel 2700 3950 0    50   Input ~ 0
+Text GLabel 2800 3850 0    50   Input ~ 0
 C2
 Wire Wire Line
-	8800 4150 8650 4150
+	5350 4200 5200 4200
 Wire Wire Line
-	8650 4250 8800 4250
+	5200 4300 5350 4300
 Wire Wire Line
-	8800 4350 8650 4350
+	5350 4400 5200 4400
 Wire Wire Line
-	8650 4450 8800 4450
+	5200 4500 5350 4500
 Wire Wire Line
-	8800 4550 8650 4550
+	5350 4600 5200 4600
 Wire Wire Line
-	8650 4650 8800 4650
+	5200 4700 5350 4700
 Wire Wire Line
-	8800 4750 8650 4750
-Text GLabel 8650 4150 0    50   Input ~ 0
+	5350 4800 5200 4800
+Text GLabel 5200 4200 0    50   Input ~ 0
 R1
-Text GLabel 8650 4250 0    50   Input ~ 0
+Text GLabel 5200 4300 0    50   Input ~ 0
 R2
-Text GLabel 8650 4350 0    50   Input ~ 0
+Text GLabel 5200 4400 0    50   Input ~ 0
 R3
-Text GLabel 8650 4450 0    50   Input ~ 0
+Text GLabel 5200 4500 0    50   Input ~ 0
 R4
-Text GLabel 8650 4550 0    50   Input ~ 0
+Text GLabel 5200 4600 0    50   Input ~ 0
 R5
-Text GLabel 8650 4650 0    50   Input ~ 0
+Text GLabel 5200 4700 0    50   Input ~ 0
 R6
-Text GLabel 8650 4750 0    50   Input ~ 0
+Text GLabel 5200 4800 0    50   Input ~ 0
 R7
 Wire Wire Line
-	7950 4150 7800 4150
+	3750 4100 3600 4100
 Wire Wire Line
-	7800 4250 7950 4250
+	3600 4200 3750 4200
 Wire Wire Line
-	7950 4350 7800 4350
+	3750 4300 3600 4300
 Wire Wire Line
-	7800 4450 7950 4450
+	3600 4400 3750 4400
 Wire Wire Line
-	7950 4550 7800 4550
+	3750 4500 3600 4500
 Wire Wire Line
-	7800 4650 7950 4650
+	3600 4600 3750 4600
 Wire Wire Line
-	7950 4750 7800 4750
-Text GLabel 7800 4150 0    50   Input ~ 0
+	3750 4700 3600 4700
+Text GLabel 3600 4100 0    50   Input ~ 0
 R1
-Text GLabel 7800 4250 0    50   Input ~ 0
+Text GLabel 3600 4200 0    50   Input ~ 0
 R2
-Text GLabel 7800 4350 0    50   Input ~ 0
+Text GLabel 3600 4300 0    50   Input ~ 0
 R3
-Text GLabel 7800 4450 0    50   Input ~ 0
+Text GLabel 3600 4400 0    50   Input ~ 0
 R4
-Text GLabel 7800 4550 0    50   Input ~ 0
+Text GLabel 3600 4500 0    50   Input ~ 0
 R5
-Text GLabel 7800 4650 0    50   Input ~ 0
+Text GLabel 3600 4600 0    50   Input ~ 0
 R6
-Text GLabel 7800 4750 0    50   Input ~ 0
-R7
-Wire Wire Line
-	6250 4150 6100 4150
-Wire Wire Line
-	6100 4250 6250 4250
-Wire Wire Line
-	6250 4350 6100 4350
-Wire Wire Line
-	6100 4450 6250 4450
-Wire Wire Line
-	6250 4550 6100 4550
-Wire Wire Line
-	6100 4650 6250 4650
-Wire Wire Line
-	6250 4750 6100 4750
-Text GLabel 6100 4150 0    50   Input ~ 0
-R1
-Text GLabel 6100 4250 0    50   Input ~ 0
-R2
-Text GLabel 6100 4350 0    50   Input ~ 0
-R3
-Text GLabel 6100 4450 0    50   Input ~ 0
-R4
-Text GLabel 6100 4550 0    50   Input ~ 0
-R5
-Text GLabel 6100 4650 0    50   Input ~ 0
-R6
-Text GLabel 6100 4750 0    50   Input ~ 0
-R7
-Wire Wire Line
-	5400 4150 5250 4150
-Wire Wire Line
-	5250 4250 5400 4250
-Wire Wire Line
-	5400 4350 5250 4350
-Wire Wire Line
-	5250 4450 5400 4450
-Wire Wire Line
-	5400 4550 5250 4550
-Wire Wire Line
-	5250 4650 5400 4650
-Wire Wire Line
-	5400 4750 5250 4750
-Text GLabel 5250 4150 0    50   Input ~ 0
-R1
-Text GLabel 5250 4250 0    50   Input ~ 0
-R2
-Text GLabel 5250 4350 0    50   Input ~ 0
-R3
-Text GLabel 5250 4450 0    50   Input ~ 0
-R4
-Text GLabel 5250 4550 0    50   Input ~ 0
-R5
-Text GLabel 5250 4650 0    50   Input ~ 0
-R6
-Text GLabel 5250 4750 0    50   Input ~ 0
-R7
-Wire Wire Line
-	3700 4150 3550 4150
-Wire Wire Line
-	3550 4250 3700 4250
-Wire Wire Line
-	3700 4350 3550 4350
-Wire Wire Line
-	3550 4450 3700 4450
-Wire Wire Line
-	3700 4550 3550 4550
-Wire Wire Line
-	3550 4650 3700 4650
-Wire Wire Line
-	3700 4750 3550 4750
-Text GLabel 3550 4150 0    50   Input ~ 0
-R1
-Text GLabel 3550 4250 0    50   Input ~ 0
-R2
-Text GLabel 3550 4350 0    50   Input ~ 0
-R3
-Text GLabel 3550 4450 0    50   Input ~ 0
-R4
-Text GLabel 3550 4550 0    50   Input ~ 0
-R5
-Text GLabel 3550 4650 0    50   Input ~ 0
-R6
-Text GLabel 3550 4750 0    50   Input ~ 0
-R7
-Wire Wire Line
-	2850 4150 2700 4150
-Wire Wire Line
-	2700 4250 2850 4250
-Wire Wire Line
-	2850 4350 2700 4350
-Wire Wire Line
-	2700 4450 2850 4450
-Wire Wire Line
-	2850 4550 2700 4550
-Wire Wire Line
-	2700 4650 2850 4650
-Wire Wire Line
-	2850 4750 2700 4750
-Text GLabel 2700 4150 0    50   Input ~ 0
-R1
-Text GLabel 2700 4250 0    50   Input ~ 0
-R2
-Text GLabel 2700 4350 0    50   Input ~ 0
-R3
-Text GLabel 2700 4450 0    50   Input ~ 0
-R4
-Text GLabel 2700 4550 0    50   Input ~ 0
-R5
-Text GLabel 2700 4650 0    50   Input ~ 0
-R6
-Text GLabel 2700 4750 0    50   Input ~ 0
+Text GLabel 3600 4700 0    50   Input ~ 0
 R7
 $Sheet
-S 8800 3900 500  1200
-U 5EC2A095
-F0 "LED_Col9" 50
+S 2150 3750 500  1200
+U 5EC2AA13
+F0 "LED_Col1" 50
 F1 "LED_1x7_reversible.sch" 50
-F2 "COL" I L 8800 3950 50 
-F3 "ROW1" I L 8800 4150 50 
-F4 "ROW2" I L 8800 4250 50 
-F5 "ROW3" I L 8800 4350 50 
-F6 "ROW4" I L 8800 4450 50 
-F7 "ROW5" I L 8800 4550 50 
-F8 "ROW6" I L 8800 4650 50 
-F9 "ROW7" I L 8800 4750 50 
+F2 "COL" I L 2150 3800 50 
+F3 "ROW1" I L 2150 4000 50 
+F4 "ROW2" I L 2150 4100 50 
+F5 "ROW3" I L 2150 4200 50 
+F6 "ROW4" I L 2150 4300 50 
+F7 "ROW5" I L 2150 4400 50 
+F8 "ROW6" I L 2150 4500 50 
+F9 "ROW7" I L 2150 4600 50 
 $EndSheet
 $Sheet
-S 7950 3900 500  1200
-U 5EC2975C
-F0 "LED_Col8" 50
+S 2950 3800 500  1200
+U 5EC1870B
+F0 "LED_Col2" 50
 F1 "LED_1x7_reversible.sch" 50
-F2 "COL" I L 7950 3950 50 
-F3 "ROW1" I L 7950 4150 50 
-F4 "ROW2" I L 7950 4250 50 
-F5 "ROW3" I L 7950 4350 50 
-F6 "ROW4" I L 7950 4450 50 
-F7 "ROW5" I L 7950 4550 50 
-F8 "ROW6" I L 7950 4650 50 
-F9 "ROW7" I L 7950 4750 50 
+F2 "COL" I L 2950 3850 50 
+F3 "ROW1" I L 2950 4050 50 
+F4 "ROW2" I L 2950 4150 50 
+F5 "ROW3" I L 2950 4250 50 
+F6 "ROW4" I L 2950 4350 50 
+F7 "ROW5" I L 2950 4450 50 
+F8 "ROW6" I L 2950 4550 50 
+F9 "ROW7" I L 2950 4650 50 
 $EndSheet
 $Sheet
-S 7100 3900 500  1200
-U 5EC1C910
-F0 "LED_Col7" 50
+S 3750 3850 500  1200
+U 5EC1A036
+F0 "LED_Col3" 50
 F1 "LED_1x7_reversible.sch" 50
-F2 "COL" I L 7100 3950 50 
-F3 "ROW1" I L 7100 4150 50 
-F4 "ROW2" I L 7100 4250 50 
-F5 "ROW3" I L 7100 4350 50 
-F6 "ROW4" I L 7100 4450 50 
-F7 "ROW5" I L 7100 4550 50 
-F8 "ROW6" I L 7100 4650 50 
-F9 "ROW7" I L 7100 4750 50 
-$EndSheet
-$Sheet
-S 6250 3900 500  1200
-U 5EC1C906
-F0 "LED_Col6" 50
-F1 "LED_1x7_reversible.sch" 50
-F2 "COL" I L 6250 3950 50 
-F3 "ROW1" I L 6250 4150 50 
-F4 "ROW2" I L 6250 4250 50 
-F5 "ROW3" I L 6250 4350 50 
-F6 "ROW4" I L 6250 4450 50 
-F7 "ROW5" I L 6250 4550 50 
-F8 "ROW6" I L 6250 4650 50 
-F9 "ROW7" I L 6250 4750 50 
-$EndSheet
-$Sheet
-S 5400 3900 500  1200
-U 5EC1C8FC
-F0 "LED_Col5" 50
-F1 "LED_1x7_reversible.sch" 50
-F2 "COL" I L 5400 3950 50 
-F3 "ROW1" I L 5400 4150 50 
-F4 "ROW2" I L 5400 4250 50 
-F5 "ROW3" I L 5400 4350 50 
-F6 "ROW4" I L 5400 4450 50 
-F7 "ROW5" I L 5400 4550 50 
-F8 "ROW6" I L 5400 4650 50 
-F9 "ROW7" I L 5400 4750 50 
+F2 "COL" I L 3750 3900 50 
+F3 "ROW1" I L 3750 4100 50 
+F4 "ROW2" I L 3750 4200 50 
+F5 "ROW3" I L 3750 4300 50 
+F6 "ROW4" I L 3750 4400 50 
+F7 "ROW5" I L 3750 4500 50 
+F8 "ROW6" I L 3750 4600 50 
+F9 "ROW7" I L 3750 4700 50 
 $EndSheet
 $Sheet
 S 4550 3900 500  1200
@@ -562,87 +378,115 @@ F8 "ROW6" I L 4550 4650 50
 F9 "ROW7" I L 4550 4750 50 
 $EndSheet
 $Sheet
-S 3700 3900 500  1200
-U 5EC1A036
-F0 "LED_Col3" 50
+S 5350 3950 500  1200
+U 5EC1C8FC
+F0 "LED_Col5" 50
 F1 "LED_1x7_reversible.sch" 50
-F2 "COL" I L 3700 3950 50 
-F3 "ROW1" I L 3700 4150 50 
-F4 "ROW2" I L 3700 4250 50 
-F5 "ROW3" I L 3700 4350 50 
-F6 "ROW4" I L 3700 4450 50 
-F7 "ROW5" I L 3700 4550 50 
-F8 "ROW6" I L 3700 4650 50 
-F9 "ROW7" I L 3700 4750 50 
+F2 "COL" I L 5350 4000 50 
+F3 "ROW1" I L 5350 4200 50 
+F4 "ROW2" I L 5350 4300 50 
+F5 "ROW3" I L 5350 4400 50 
+F6 "ROW4" I L 5350 4500 50 
+F7 "ROW5" I L 5350 4600 50 
+F8 "ROW6" I L 5350 4700 50 
+F9 "ROW7" I L 5350 4800 50 
 $EndSheet
 $Sheet
-S 2850 3900 500  1200
-U 5EC1870B
-F0 "LED_Col2" 50
+S 6150 4000 500  1200
+U 5EC1C906
+F0 "LED_Col6" 50
 F1 "LED_1x7_reversible.sch" 50
-F2 "COL" I L 2850 3950 50 
-F3 "ROW1" I L 2850 4150 50 
-F4 "ROW2" I L 2850 4250 50 
-F5 "ROW3" I L 2850 4350 50 
-F6 "ROW4" I L 2850 4450 50 
-F7 "ROW5" I L 2850 4550 50 
-F8 "ROW6" I L 2850 4650 50 
-F9 "ROW7" I L 2850 4750 50 
+F2 "COL" I L 6150 4050 50 
+F3 "ROW1" I L 6150 4250 50 
+F4 "ROW2" I L 6150 4350 50 
+F5 "ROW3" I L 6150 4450 50 
+F6 "ROW4" I L 6150 4550 50 
+F7 "ROW5" I L 6150 4650 50 
+F8 "ROW6" I L 6150 4750 50 
+F9 "ROW7" I L 6150 4850 50 
 $EndSheet
 $Sheet
-S 2000 3900 500  1200
-U 5EC2AA13
-F0 "LED_Col1" 50
+S 6950 4050 500  1200
+U 5EC1C910
+F0 "LED_Col7" 50
 F1 "LED_1x7_reversible.sch" 50
-F2 "COL" I L 2000 3950 50 
-F3 "ROW1" I L 2000 4150 50 
-F4 "ROW2" I L 2000 4250 50 
-F5 "ROW3" I L 2000 4350 50 
-F6 "ROW4" I L 2000 4450 50 
-F7 "ROW5" I L 2000 4550 50 
-F8 "ROW6" I L 2000 4650 50 
-F9 "ROW7" I L 2000 4750 50 
+F2 "COL" I L 6950 4100 50 
+F3 "ROW1" I L 6950 4300 50 
+F4 "ROW2" I L 6950 4400 50 
+F5 "ROW3" I L 6950 4500 50 
+F6 "ROW4" I L 6950 4600 50 
+F7 "ROW5" I L 6950 4700 50 
+F8 "ROW6" I L 6950 4800 50 
+F9 "ROW7" I L 6950 4900 50 
+$EndSheet
+$Sheet
+S 7750 4100 500  1200
+U 5EC2975C
+F0 "LED_Col8" 50
+F1 "LED_1x7_reversible.sch" 50
+F2 "COL" I L 7750 4150 50 
+F3 "ROW1" I L 7750 4350 50 
+F4 "ROW2" I L 7750 4450 50 
+F5 "ROW3" I L 7750 4550 50 
+F6 "ROW4" I L 7750 4650 50 
+F7 "ROW5" I L 7750 4750 50 
+F8 "ROW6" I L 7750 4850 50 
+F9 "ROW7" I L 7750 4950 50 
+$EndSheet
+$Sheet
+S 8550 4150 500  1200
+U 5EC2A095
+F0 "LED_Col9" 50
+F1 "LED_1x7_reversible.sch" 50
+F2 "COL" I L 8550 4200 50 
+F3 "ROW1" I L 8550 4400 50 
+F4 "ROW2" I L 8550 4500 50 
+F5 "ROW3" I L 8550 4600 50 
+F6 "ROW4" I L 8550 4700 50 
+F7 "ROW5" I L 8550 4800 50 
+F8 "ROW6" I L 8550 4900 50 
+F9 "ROW7" I L 8550 5000 50 
 $EndSheet
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP3
 U 1 1 5ECC95C8
 P 5500 1400
-F 0 "JP?" V 5454 1468 50  0000 L CNN
+F 0 "JP3" V 5454 1468 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 5545 1468 50  0000 L CNN
-F 2 "" H 5500 1400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5500 1400 50  0001 C CNN
 F 3 "~" H 5500 1400 50  0001 C CNN
 	1    5500 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP2
 U 1 1 5ECCB07C
 P 5300 1400
-F 0 "JP?" V 5254 1468 50  0000 L CNN
+F 0 "JP2" V 5254 1468 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 5345 1468 50  0000 L CNN
-F 2 "" H 5300 1400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5300 1400 50  0001 C CNN
 F 3 "~" H 5300 1400 50  0001 C CNN
 	1    5300 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP1
 U 1 1 5ECD0B0D
 P 5150 1400
-F 0 "JP?" V 5104 1468 50  0000 L CNN
+F 0 "JP1" V 5104 1468 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 5195 1468 50  0000 L CNN
-F 2 "" H 5150 1400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 5150 1400 50  0001 C CNN
 F 3 "~" H 5150 1400 50  0001 C CNN
 	1    5150 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5ECE74FA
 P 5650 1400
-F 0 "R?" H 5720 1446 50  0000 L CNN
+F 0 "R1" H 5720 1446 50  0000 L CNN
 F 1 "10kR" H 5720 1355 50  0000 L CNN
-F 2 "" V 5580 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 1400 50  0001 C CNN
 F 3 "~" H 5650 1400 50  0001 C CNN
 	1    5650 1400
 	1    0    0    -1  
@@ -689,4 +533,160 @@ Wire Wire Line
 Wire Wire Line
 	5650 1550 5650 2250
 Connection ~ 5500 2250
+Text GLabel 6000 4850 0    50   Input ~ 0
+R7
+Text GLabel 6000 4750 0    50   Input ~ 0
+R6
+Text GLabel 6000 4650 0    50   Input ~ 0
+R5
+Text GLabel 6000 4550 0    50   Input ~ 0
+R4
+Text GLabel 6000 4450 0    50   Input ~ 0
+R3
+Text GLabel 6000 4350 0    50   Input ~ 0
+R2
+Text GLabel 6000 4250 0    50   Input ~ 0
+R1
+Text GLabel 6000 4050 0    50   Input ~ 0
+C6
+Wire Wire Line
+	6150 4050 6000 4050
+Wire Wire Line
+	6150 4250 6000 4250
+Wire Wire Line
+	6000 4350 6150 4350
+Wire Wire Line
+	6150 4450 6000 4450
+Wire Wire Line
+	6000 4550 6150 4550
+Wire Wire Line
+	6150 4650 6000 4650
+Wire Wire Line
+	6000 4750 6150 4750
+Wire Wire Line
+	6150 4850 6000 4850
+Text GLabel 7600 4950 0    50   Input ~ 0
+R7
+Text GLabel 7600 4850 0    50   Input ~ 0
+R6
+Text GLabel 7600 4750 0    50   Input ~ 0
+R5
+Text GLabel 7600 4650 0    50   Input ~ 0
+R4
+Text GLabel 7600 4550 0    50   Input ~ 0
+R3
+Text GLabel 7600 4450 0    50   Input ~ 0
+R2
+Text GLabel 7600 4350 0    50   Input ~ 0
+R1
+Wire Wire Line
+	7750 4950 7600 4950
+Wire Wire Line
+	7600 4850 7750 4850
+Wire Wire Line
+	7750 4750 7600 4750
+Wire Wire Line
+	7600 4650 7750 4650
+Wire Wire Line
+	7750 4550 7600 4550
+Wire Wire Line
+	7600 4450 7750 4450
+Wire Wire Line
+	7750 4350 7600 4350
+Text GLabel 8400 5000 0    50   Input ~ 0
+R7
+Text GLabel 8400 4900 0    50   Input ~ 0
+R6
+Text GLabel 8400 4800 0    50   Input ~ 0
+R5
+Text GLabel 8400 4700 0    50   Input ~ 0
+R4
+Text GLabel 8400 4600 0    50   Input ~ 0
+R3
+Text GLabel 8400 4500 0    50   Input ~ 0
+R2
+Text GLabel 8400 4400 0    50   Input ~ 0
+R1
+Wire Wire Line
+	8550 5000 8400 5000
+Wire Wire Line
+	8400 4900 8550 4900
+Wire Wire Line
+	8550 4800 8400 4800
+Wire Wire Line
+	8400 4700 8550 4700
+Wire Wire Line
+	8550 4600 8400 4600
+Wire Wire Line
+	8400 4500 8550 4500
+Wire Wire Line
+	8550 4400 8400 4400
+Text GLabel 7600 4150 0    50   Input ~ 0
+C8
+Text GLabel 8400 4200 0    50   Input ~ 0
+C9
+Wire Wire Line
+	7750 4150 7600 4150
+Wire Wire Line
+	8400 4200 8550 4200
+Wire Wire Line
+	6800 4100 6950 4100
+Text GLabel 6800 4100 0    50   Input ~ 0
+C7
+Wire Wire Line
+	6950 4300 6800 4300
+Wire Wire Line
+	6800 4400 6950 4400
+Wire Wire Line
+	6950 4500 6800 4500
+Wire Wire Line
+	6800 4600 6950 4600
+Wire Wire Line
+	6950 4700 6800 4700
+Wire Wire Line
+	6800 4800 6950 4800
+Wire Wire Line
+	6950 4900 6800 4900
+Text GLabel 6800 4300 0    50   Input ~ 0
+R1
+Text GLabel 6800 4400 0    50   Input ~ 0
+R2
+Text GLabel 6800 4500 0    50   Input ~ 0
+R3
+Text GLabel 6800 4600 0    50   Input ~ 0
+R4
+Text GLabel 6800 4700 0    50   Input ~ 0
+R5
+Text GLabel 6800 4800 0    50   Input ~ 0
+R6
+Text GLabel 6800 4900 0    50   Input ~ 0
+R7
+Text GLabel 2800 4650 0    50   Input ~ 0
+R7
+Text GLabel 2800 4550 0    50   Input ~ 0
+R6
+Text GLabel 2800 4450 0    50   Input ~ 0
+R5
+Text GLabel 2800 4350 0    50   Input ~ 0
+R4
+Text GLabel 2800 4250 0    50   Input ~ 0
+R3
+Text GLabel 2800 4150 0    50   Input ~ 0
+R2
+Text GLabel 2800 4050 0    50   Input ~ 0
+R1
+Wire Wire Line
+	2950 4650 2800 4650
+Wire Wire Line
+	2800 4550 2950 4550
+Wire Wire Line
+	2950 4450 2800 4450
+Wire Wire Line
+	2800 4350 2950 4350
+Wire Wire Line
+	2950 4250 2800 4250
+Wire Wire Line
+	2800 4150 2950 4150
+Wire Wire Line
+	2950 4050 2800 4050
 $EndSCHEMATC
