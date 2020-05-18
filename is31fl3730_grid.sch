@@ -689,4 +689,23 @@ Wire Wire Line
 	2800 4150 2950 4150
 Wire Wire Line
 	2950 4050 2800 4050
+Text GLabel 6650 1150 1    50   Input ~ 0
+SDB
+Text GLabel 6650 1650 3    50   Input ~ 0
+VCC
+$Comp
+L Device:R R2
+U 1 1 5EC28526
+P 6650 1400
+F 0 "R2" H 6720 1446 50  0000 L CNN
+F 1 "10kR" H 6720 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6580 1400 50  0001 C CNN
+F 3 "~" H 6650 1400 50  0001 C CNN
+	1    6650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1150 6650 1250
+Wire Wire Line
+	6650 1550 6650 1650
 $EndSCHEMATC
