@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name is31fl3730_grid-rescue)(type Legacy)(uri ${KIPRJMOD}/is31fl3730_grid-rescue.lib)(options "")(descr ""))
+)
